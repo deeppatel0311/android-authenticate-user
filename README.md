@@ -21,7 +21,7 @@ allprojects {
  
  ```
  dependencies {
-	        implementation 'com.github.JuniorClone:android-authenticate-user:1.0.1'
+	        implementation 'com.github.JuniorClone:android-authenticate-user:1.0.2'
 	}
   ```
   
