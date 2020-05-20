@@ -24,14 +24,26 @@ allprojects {
 	        implementation 'com.github.JuniorClone:android-authenticate-user:1.0.1'
 	}
   ```
+  
+## screenshot
+
+<p align="center">
+  <img src="screenshot/v28.jpg" width="250" height="500" />
+  <img src="screenshot/v23.jpeg" width="250" height="500" /> 
+</p>
+
+
 ## Usage
 
 ```
+/*
+ * If You need only biomatric authentication then set 'setConfirmationRequired(false)'
+ */
 AuthManager authManager = new AuthManager.AuthMangerBuilder(MainActivity.this)
-                .setTitle(getResources().getString(R.string.auth_manager_title))
-                .setSubtitle(getResources().getString(R.string.auth_manager_title))
-                .setDescription(getResources().getString(R.string.auth_manager_title))
-                .setNegativeButtonText(getResources().getString(R.string.auth_manager_title))
+                .setTitle("Authentication Title")
+                .setSubtitle("Authentication Subtitle")
+                .setDescription("Authentication Description")
+                .setNegativeButtonText("Cancel")
                 .setConfirmationRequired(true)
                 .Builder();
 
