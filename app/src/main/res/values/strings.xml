@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BiometricAuth</string>
+    <string name="sdk_not_support">Sdk Version not Support</string>
+    <string name="permission_not_granted">Authentication Permission Not Granted</string>
+    <string name="internal_error">Internal Error</string>
+    <string name="authentication_failed">Authentication Failed</string>
+    <string name="authentication_error">Authentication Error</string>
+    <string name="authentication_success">User Authentication Successful</string>
+    <string name="auth_manager_title">Authentication Title</string>
+    <string name="auth_manager_description">Authentication Description</string>
+    <string name="auth_manager_subtitle">Authentication Subtitle</string>
+    <string name="auth_manager_negative_text">Cancel</string>
+</resources>
