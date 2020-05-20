@@ -3,7 +3,12 @@
 
 Authenticate user by biomatric and system lock .
 
-[![](https://jitpack.io/v/JuniorClone/android-authenticate-user.svg)](https://jitpack.io/#JuniorClone/android-authenticate-user)
+<p>
+<img src="https://jitpack.io/v/JuniorClone/android-authenticate-user.svg" style="max-width:100%;" alt="API" data-canonical-src="https://jitpack.io/#JuniorClone/android-authenticate-user" style="max-width:100%;">
+
+<img src="https://img.shields.io/badge/API-23%2B-blue.svg?style=flat" style="max-width:100%;" alt="API" data-canonical-src="https://img.shields.io/badge/API-23%2B-blue.svg?style=flat" style="max-width:100%;">
+</p>
+
 
 ## How to integrate the library in your app?
 ### Add it in your root build.gradle at the end of repositories:
