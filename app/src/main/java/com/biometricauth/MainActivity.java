@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity implements AuthCallback {
 
         authManager = new AuthManager.AuthMangerBuilder(MainActivity.this)
                 .setTitle(getResources().getString(R.string.auth_manager_title))
-                .setSubtitle(getResources().getString(R.string.auth_manager_title))
-                .setDescription(getResources().getString(R.string.auth_manager_title))
-                .setNegativeButtonText(getResources().getString(R.string.auth_manager_title))
+                .setSubtitle(getResources().getString(R.string.auth_manager_subtitle))
+                .setDescription(getResources().getString(R.string.auth_manager_description))
+                .setNegativeButtonText(getResources().getString(R.string.auth_manager_negative_text))
                 .setConfirmationRequired(true)
                 .Builder();
     }

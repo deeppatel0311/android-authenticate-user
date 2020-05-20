@@ -58,7 +58,7 @@ public class AuthManager {
         this.context = authMangerBuilder.context;
         this.title = authMangerBuilder.title;
         this.subtitle = authMangerBuilder.subtitle;
-        this.description = authMangerBuilder.subtitle;
+        this.description = authMangerBuilder.description;
         this.confirmationRequired = authMangerBuilder.confirmationRequired;
         this.negativeButtonText = authMangerBuilder.negativeButtonText;
     }
